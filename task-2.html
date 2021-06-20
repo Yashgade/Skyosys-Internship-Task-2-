@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+   <script src="tsk2.js"></script>
+    <title>Task-2</title>
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0">
+    	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand m-2 p-2 h1" href="#">Skyosys</a>
+
+                <div class="navbar-nav text-end">
+                    <a class="nav-link active" href="#home">Home</a>
+                    <a class="nav-link active" href="#about">About</a>
+                    <a class="nav-link active" href="#services">Services</a>
+                    <a class="nav-link active" href="#contactUs">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!--------------------------------------- HOME SECTION ---------------------------------------->
+       <section id="home">
+           <div class="container-fluid">
+            <div class="row">
+             	    <div class="col-md-6 col-lg-6">
+                    <div class="card" style="width: 28rem;">
+                        <div class="card-body"> 
+                            <h1 class="card-title">Want to take your business online ?</h1>
+                            <p class="card-text">Voila!! We at Skyosys love working with growing businesses that are modern, adaptive and think outside the box.</p>
+                            <a href="#" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div> 
+                </div>
+		  <div class="col-md-6 col-lg-6">
+                    <img src="page1.png" height="500px" width="500px">
+                </div>
+            </div>
+	   </div>
+        </section>
+        <!-------------------------------------------- ABOUT SECTION ---------------------------------------->
+        <section id="about">
+	    <h1>ABOUT US</h1>
+            <div class="container-fluid">
+                
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="avatar.png" height="500px" width="500px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-6 col-lg-6 ">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <p> <img src="icon.png">
+                                    Voila!! We at Skyosys love working with growing businesses that are modern, adaptive and think outside the box.
+                                </p>
+                                <p> <img src="icon.png">
+                                    Voila!! We at Skyosys love working with growing businesses that are modern, adaptive and think outside the box.
+                                </p>
+                                <p> <img src="icon.png">
+                                    Voila!! We at Skyosys love working with growing businesses that are modern, adaptive and think outside the box.
+                                </p>
+                                <a href="#about" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------- SERVICES SECTION -------------------------------------------->
+        <section id="services">
+            <div class="container-fluid">
+                <h1>SERVICES</h1>
+                <div class="row m-5">
+		      <div class="col-md-4 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+			     <div class="card-body">
+                            <img src="web.png " class="card-img-top">
+                                <h3 class="card-title p-2">Web<br>Development</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut mollis
+                                    metus a felis sagittis ornare.bulk of the card's content.</p>
+                                <a href="#services" class="card-link">> Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+			
+                   <div class=" col-md-4 col-lg-4 ">
+                        <div class="card" style="width: 18rem;">
+			    <div class="card-body">
+                            <img src="mobapp.png " class="card-img-top">
+                                <h3 class="card-title p-2">Mobile App Development</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut mollis
+                                    metus a felis sagittis ornare.bulk of the card's content.</p>
+                                <a href="#services" class="card-link">> Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+			    <div class="card-body">
+                            <img src="graphics.png " class="card-img-top">
+                                <h3 class="card-title p-2">Graphic<br>Designing</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut mollis
+                                    metus a felis sagittis ornare.bulk of the card's content.</p>
+                                <a href="#services" class="card-link">> Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------- CONTACT SECTION ----------------------------------------->
+        <section id="contactUs">
+            
+                <h1 class="heading">CONTACT US</h1>
+                <h4 class="para">Drop Us a Message.</h4>
+		<div class="grid-container">
+                        <div class="grid-item">
+			<form id='form' >
+                            <input type="name"  id="TextName" class="form-control" placeholder="Your Name*" >
+                            <input type="email" id="TextEmail" class="form-control" placeholder="Your Email*" >
+                            <input type="text" id="TextPhone" class="form-control" placeholder="Your Phone Number*" >
+			    <a href="#contact" class="btn btn-primary" onclick="getPrinted()">Send Message</a>
+			</form>
+                        </div>
+
+                        <div class="grid-item">
+			<form id='form'>
+                            <textarea class="form-control" id="TextMsg" placeholder="Your Message*" rows="6" required></textarea>
+			</form>
+                        </div>
+		</div>
+
+        </section>
+
+        <!---------------------------------- REFERENCES SECTION -------------------------------------------->
+        <section id="reference">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-sm-3 col-md-3 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <h3>Skyosys</h3>
+                            <p>Abhudaya Bank,<br> Airoli,<br> Sector-17.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <h5>Useful Links</h5>
+                            <a href="#home">> Home</a>
+                            <a href="#about">> About</a>
+                            <a href="#services">> Services</a>
+                            <a href="#contact">> Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <h5>Useful Links</h5>
+                            <a href="#services">> Web Development</a>
+                            <a href="#services">> Mobile App Development</a>
+                            <a href="#services">> Graphic Designing</a>
+                        </div>
+                    </div>
+                    <div class=" col-sm-3 col-md-3 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <h5>Contact Us</h5>
+                            <span>Email: <a href="#">info@skyosys.com</a></span>
+                            <span>Phone: <a href="#">998756874</a></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------------------------- FOOTER SECTION ----------------------------------------------------->
+        <footer>
+            <span class="foot m-4 p-4 h-1">&copy; Copyright Skyosys. All Rights Reserved.</span>
+            <span class="logo">
+                <img src="D:\skyosis\task2\logo-whatsapp.svg" alt="">
+                <img src="file:///D:/skyosis/task2/logo-facebook.svg" alt="">
+                <img src="file:///D:/skyosis/task2/logo-twitter.svg" alt="">
+            </span>
+        </footer>
+    </div>
+
+
+
+
+  
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+
+
+</body>
+
+
+</html>
